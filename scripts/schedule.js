@@ -19,7 +19,7 @@ const chalk = require('chalk') // 4.1.2以上版本不支持 CommonJS
 
 // 每天 7:30
 cron.schedule(
-  '45 9 * * *',
+  '45 9 * * 1-5',
   (now) => {
     console.log(
       chalk.greenBright('🕒 当前时间:'),
